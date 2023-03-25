@@ -1,0 +1,45 @@
+:root {
+  --primary-color: rgb(141, 123, 104);
+  --secondary-color: rgb(164, 144, 124);
+  --tertiary-color: rgb(200, 182, 166);
+  --support-color: rgb(241, 222, 201);
+  --highlight-color: rgb(251, 255, 177);
+}
+body {
+  background-color: var(--support-color);
+}
+.bg-smoke {
+  background-color: var(--primary-color) !important;
+}
+.app-picture {
+  max-width: 400px;
+}
+.emoji {
+  max-width: 35px;
+  height: auto;
+}
+
+.contact-link,
+.about-link,
+.launch-app-link,
+.email-link {
+  border: 2px solid var(--primary-color);
+  border-radius: 2px;
+  color: var(--highlight-color);
+  background-color: var(--primary-color);
+}
+.contact-link:hover,
+.about-link:hover,
+.launch-app-link:hover,
+.email-link:hover {
+  color: whitesmoke;
+}
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 24px;
+}
