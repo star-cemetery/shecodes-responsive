@@ -1,0 +1,125 @@
+:root {
+<<<<<<< HEAD
+  --text-color: rgb(83, 67, 48);
+=======
+>>>>>>> b03290bdc1e3862fbf33a81eb70995b8ef939710
+  --primary-color: rgb(141, 123, 104);
+  --secondary-color: rgb(164, 144, 124);
+  --tertiary-color: rgb(200, 182, 166);
+  --support-color: rgb(241, 222, 201);
+  --highlight-color: rgb(251, 255, 177);
+<<<<<<< HEAD
+
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--support-color);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+=======
+}
+body {
+  background-color: var(--support-color);
+>>>>>>> b03290bdc1e3862fbf33a81eb70995b8ef939710
+}
+.bg-smoke {
+  background-color: var(--primary-color) !important;
+}
+<<<<<<< HEAD
+nav {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 96px;
+}
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 24px;
+  color: var(--text-color);
+}
+p {
+  color: var(--text-color);
+}
+.app-picture {
+  margin: 0 !important;
+}
+.row {
+  margin: 10px 0;
+}
+@media (min-width: 992px) {
+  .app-picture {
+    max-width: 500px;
+    margin: 1rem;
+  }
+=======
+.app-picture {
+  max-width: 400px;
+>>>>>>> b03290bdc1e3862fbf33a81eb70995b8ef939710
+}
+.emoji {
+  max-width: 35px;
+  height: auto;
+}
+<<<<<<< HEAD
+.contact-me-link,
+.about-me-link,
+=======
+
+>>>>>>> b03290bdc1e3862fbf33a81eb70995b8ef939710
+.contact-link,
+.about-link,
+.launch-app-link,
+.email-link {
+  border: 2px solid var(--primary-color);
+<<<<<<< HEAD
+  border-radius: 3px;
+  color: var(--highlight-color);
+  background-color: var(--primary-color);
+  padding: 15px;
+  margin: 20px;
+}
+.contact-me-link:hover,
+.about-me-link:hover,
+=======
+  border-radius: 2px;
+  color: var(--highlight-color);
+  background-color: var(--primary-color);
+}
+>>>>>>> b03290bdc1e3862fbf33a81eb70995b8ef939710
+.contact-link:hover,
+.about-link:hover,
+.launch-app-link:hover,
+.email-link:hover {
+  color: whitesmoke;
+}
+<<<<<<< HEAD
+.about-paragraph {
+  margin: 30px;
+}
+
+#about-pict-container {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+.about-app-picture {
+  max-width: 270px;
+=======
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 24px;
+>>>>>>> b03290bdc1e3862fbf33a81eb70995b8ef939710
+}
