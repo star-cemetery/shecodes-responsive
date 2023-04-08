@@ -4,11 +4,23 @@
   --tertiary-color: rgb(200, 182, 166);
   --support-color: rgb(241, 222, 201);
   --highlight-color: rgb(252, 255, 196);
-
+  --highlight-font: "Osake";
+  --basic-font: "Times Neew Roman";
+  --highlight-font-color: rgb(77, 54, 31);
   scroll-behavior: smooth;
+}
+@font-face {
+  font-family: "Osake";
+  src: url("fonts/osake.eot");
+  src: url("fonts/osake.eot?") format("embedded-opentype"),
+    url("fonts/osake.woff2") format("woff2"),
+    url("fonts/osake.woff") format("woff"),
+    url("fonts/osake.ttf") format("truetype"),
+    url("fonts/osake.svg") format("svg");
 }
 body {
   background-color: var(--support-color);
+  font-family: "Times New Roman", Times, serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -23,17 +35,19 @@ nav {
   justify-content: space-between;
 }
 h1 {
-  font-size: 96px;
+  font-size: 32px;
+  font-family: "Osake", Fallback, sans-serif;
 }
 h2 {
   font-size: 48px;
+  font-family: "Osake", Fallback, sans-serif;
 }
 h3 {
   font-size: 24px;
   color: var(--text-color);
 }
 p {
-  color: var(--text-color);
+  color: var(--highlight-font-color);
 }
 .app-picture {
   margin: 0 !important;
