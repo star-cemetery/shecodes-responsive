@@ -110,3 +110,12 @@ p {
 .about-app-picture {
   max-width: 270px;
 }
+.accordion-button {
+  background-color: var(--tertiary-color);
+}
+.accordion-body {
+  background-color: var(--support-color);
+}
+.accordion-header {
+  font: var(--basic-font);
+}
