@@ -49,12 +49,6 @@ h3 {
 p {
   color: var(--highlight-font-color);
 }
-.app-picture {
-  margin: 0 !important;
-}
-.row {
-  margin: 10px 0;
-}
 @media (min-width: 992px) {
   .app-picture {
     max-width: 500px;
@@ -65,51 +59,6 @@ p {
   max-width: 35px;
   height: auto;
 }
-.about-me-link,
-.contact-me-link,
-.contact-link,
-.about-link,
-.launch-app-link {
-  border: 2px solid var(--primary-color);
-  border-radius: 3px;
-  color: var(--highlight-color);
-  background-color: var(--primary-color);
-  padding: 15px;
-  margin: 20px;
-}
-.contact-me-link:hover,
-.about-me-link:hover,
-.contact-link:hover,
-.about-link:hover,
-.launch-app-link:hover {
-  color: whitesmoke;
-}
-.email-link {
-  color: var(--secondary-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-.email-link:hover {
-  text-decoration: underline;
-  color: var(--highlight-color);
-}
-
-.about-paragraph {
-  margin: 30px;
-}
-
-#about-pict-container {
-  width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
-  margin-right: auto;
-  margin-left: auto;
-  justify-content: space-evenly;
-  box-sizing: border-box;
-}
-.about-app-picture {
-  max-width: 270px;
-}
 .accordion-button {
   background-color: var(--tertiary-color);
 }
@@ -118,4 +67,28 @@ p {
 }
 .accordion-header {
   font: var(--basic-font);
+}
+.to-the-top-button {
+  background-color: var(--primary-color);
+  border: 2px solid var(--highlight-font-color);
+  border-radius: 3px;
+  color: var(--highlight-font-color);
+  background-color: var(--primary-color);
+  padding: 15px;
+  margin: 20px;
+}
+.to-the-top-button:hover {
+  color: var(--highlight-color);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: var(--highlight-color);
+}
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
 }
