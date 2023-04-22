@@ -1,4 +1,3 @@
-alert("Hello");
 let clip = document.querySelector(".vid");
 clip.addEventListener("mouseover", function (e) {
   clip.play();

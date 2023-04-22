@@ -6,7 +6,7 @@
   --highlight-color: rgb(252, 255, 196);
   --highlight-font: "Osake";
   --basic-font: "Times Neew Roman";
-  --highlight-font-color: rgb(77, 54, 31);
+  --highlight-font-color: rgb(107, 80, 52);
   scroll-behavior: smooth;
 }
 @font-face {
@@ -91,4 +91,17 @@ a:hover {
 .flex-end {
   display: flex;
   justify-content: flex-end;
+}
+#harajuku-link,
+#textile-link,
+#github-link {
+  color: black;
+  font-family: var(--highlight-font);
+  font-size: 24px;
+}
+#harajuku-link:hover,
+#textile-link:hover,
+#github-link:hover {
+  text-decoration: none;
+  color: var(--highlight-font-color);
 }
